@@ -12,3 +12,55 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+@font-face {
+  font-family: "gilroy-bold";
+  src: url("./fonts/Gilroy-ExtraBold.otf");
+  src: url("./fonts/Gilroy-ExtraBold.ttf");
+}
+@font-face {
+  font-family: "gilroy-light";
+  src: url("./fonts/Gilroy-Light.otf");
+  src: url("./fonts/Gilroy-Light.ttf");
+}
+.day {
+  color:white;
+  font-family: 'gilroy-light';
+  text-transform: uppercase;
+  font-size:2em;
+  text-align:center;
+}
+.dayDiv {
+  margin-bottom:30px;
+}
+.bold{
+  font-family:'gilroy-bold';
+}
+html, body, .day {
+  height: 100%;
+}
+.forecast{
+  border: 0;
+    height: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+}
+.day {
+  margin-top:75px;
+}
+.dayForecast{
+  margin-top:20px;
+  font-size:16px;
+}
+.clearsky {}
+.fewclouds {}
+.scatteredclouds{}
+.brokenclouds{}
+.showerrain{}
+.rain{}
+.thunderstorm{}
+.snow{}
+.mist{}
+.evening{background-color: #6938b7}
+.morning{background-color: #9becff}
+.afternoon{background-color:#46d2f2}
+.night{background-color:#090651}
